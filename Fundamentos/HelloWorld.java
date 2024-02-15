@@ -1,6 +1,5 @@
-// hello word = nome da classe
-// public = tipo de acesso 
-// class tipo da classe
+import java.util.ArrayList;
+import java.util.List;
 
 public class HelloWorld {
 
