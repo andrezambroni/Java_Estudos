@@ -1,9 +1,9 @@
 package Conta;
 
 public class ContaBancaria {
-  String numero;
-  String titular;
-  double saldo;
+  private String numero;
+  private String titular;
+  private double saldo;
 
   // depositar
   void depositar(double valor) {
@@ -16,7 +16,6 @@ public class ContaBancaria {
   }
 
   // sacar
-
   void sacar(double valor) {
     if (valor > 0 && valor <= saldo) {
       saldo = saldo - valor;
