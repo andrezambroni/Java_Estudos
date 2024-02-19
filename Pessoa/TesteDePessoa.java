@@ -1,23 +1,25 @@
 package Pessoa;
 
 public class TesteDePessoa {
+
   public static void main(String[] args) {
-    Pessoa pessoa1 = new Pessoa() ; //criando um objeto da classe Pessoa
+    Professor professor = new Professor();
 
-    pessoa1.cpf = "3332222111";
-    pessoa1.nome = "Andre";
-    pessoa1.idade = 33;
+    professor.setCpf("333222211");
+    professor.setNome("André");
+    professor.setIdade(25);
+    professor.setSalario(50000);
 
-    System.out.println(pessoa1.imprimirDadosDaPessoa());
+    System.out.println(professor.imprimirDadosDaPessoa());
 
-    Pessoa pessoa2 = new Pessoa() ; //criando um objeto da classe Pessoa
+    Aluno aluno = new Aluno();
+    aluno.setCpf("1122334455");
+    aluno.setIdade(20);
+    aluno.setNome("Anna");
+    aluno.setMatricula("2307");
 
-    pessoa2.cpf = "33322222111";
-    pessoa2.nome = "Andre";
-    pessoa2.idade = 33;
-
-    System.out.println(pessoa2.imprimirDadosDaPessoa());
-
+    System.out.println(aluno.imprimirDadosDaPessoa());
 
   }
+
 }

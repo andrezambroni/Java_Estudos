@@ -29,9 +29,9 @@ public class Pessoa {
     return nome;
   }
 
-  String imprimirDadosDaPessoa(int indice){
+  String imprimirDadosDaPessoa() {
 
-    return " o nome da pessoa é " + nome + "idade é " + idade + "e o documento é" + cpf + "e o indice é: " + indice;
-      
+    return " o nome da pessoa é " + nome + " a idade é " + idade + " e o documento é " + cpf;
+
   }
 }

@@ -5,6 +5,36 @@ public class ContaBancaria {
   private String titular;
   private double saldo;
 
+  // Getters e Setters
+  public ContaBancaria (){
+    saldo = 0;
+  }
+
+  public void setNumero(String numero) {
+    this.numero = numero;
+  }
+
+  public String getNumero() {
+    return this.numero;
+  }
+
+  public void setTitular(String titular) {
+    this.titular = titular;
+  }
+
+  public String getTitular() {
+    return titular;
+  }
+
+  public void setSaldo(double saldo) {
+    this.saldo = saldo;
+    
+  }
+
+  public double getSaldo() {
+    return saldo;
+  }
+
   // depositar
   void depositar(double valor) {
     if (valor > 0) {
