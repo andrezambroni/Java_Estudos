@@ -1,10 +1,10 @@
-package br.com.andrezambroni.primeiroprojetospringboot;
+package br.com.andrezambroni.sb1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PrimeiroProjetoSpringbootApplicationTests {
+class Sb1ApplicationTests {
 
 	@Test
 	void contextLoads() {
